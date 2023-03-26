@@ -1,7 +1,7 @@
 from reto_salud import persona
 class inicio:
 
-    def _init_(self):
+    def __init__(self):
         self.persona1 = persona("", "", "", "", 0, 0, 0, "")
         self.persona2 = persona("", "", "", "", 0, 0, 0, "")
 

@@ -34,3 +34,24 @@ class persona:
             print('El usuario ya es mayor de edad')
         else:
             print('El usuario aun no es mayor de edad')
+
+'''class Persona:
+    def __init__(self, nombre, edad):
+        self._nombre = nombre  # atributo privado
+        self._edad = edad  # atributo privado
+
+    def get_nombre(self):
+        
+       
+return self._nombre  # método público
+
+    def set_nombre(self, nombre):
+        
+       
+self._nombre = nombre  # método público
+
+    def get_edad(self):
+        return self._edad  # método público
+
+    def set_edad(self, edad):
+        self._edad = edad  # método público'''
